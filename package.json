@@ -1,0 +1,20 @@
+{
+  "name": "@green-metrics/carbonav",
+  "version": "1.1.5",
+  "description": "EqCO2 of your navigation",
+  "main": "dist/carbonav.js",
+  "types": "dist/carbonav.d.ts",
+  "publishConfig": {
+    "registry": "https://gitlab.com/api/v4/projects/34348023/packages/npm/"
+  },
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "baptiste@greenmetrics.io",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.6.2"
+  }
+}
